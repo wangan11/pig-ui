@@ -32,7 +32,7 @@ const iconfontVersion = ['567566_r22zi6t8noas8aor', '599693_0b5sleso3f1j1yvi', '
 const iconfontUrl = `//at.alicdn.com/t/font_$key.css`
 const codeUrl = `/admin/code`
 if (process.env.NODE_ENV == 'development') {
-  baseUrl = `http://127.0.0.1:9999/`;
+  baseUrl = `http://127.0.0.1:7777/`;
 } else if (process.env.NODE_ENV == 'production') {
   baseUrl = `http://218.70.11.118`;
 }
